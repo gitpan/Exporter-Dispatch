@@ -1,4 +1,5 @@
-BEGIN { plan tests => 3 };
+use Test;
+BEGIN { plan tests => 3 }
 package TestPkg;
 use Exporter::Dispatch;
 ok(1);
